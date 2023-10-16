@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36708" started-at="2023-10-12T17:56:28 IST" finished-at="2023-10-12T17:57:04 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="ErrorValidations.loginErrors()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="loginErrors" class="UIAutomation.SeleniumFrameworkDesign.ErrorValidations"/>
+      </group> <!-- smoke -->
+      <group name="orderPurchase">
+        <method signature="SubmitOrderTest.submitOrders(java.util.HashMap)[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="submitOrders" class="UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest"/>
+      </group> <!-- orderPurchase -->
+    </groups>
+    <test name="Submit Order Test" duration-ms="24455" started-at="2023-10-12T17:56:28 IST" finished-at="2023-10-12T17:56:52 IST">
+      <class name="UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="launchBrowser" is-config="true" duration-ms="3002" started-at="2023-10-12T17:56:28 IST" finished-at="2023-10-12T17:56:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="submitOrders(java.util.HashMap)[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="submitOrders" duration-ms="8905" started-at="2023-10-12T17:56:31 IST" data-provider="getData" finished-at="2023-10-12T17:56:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Welcome@2023, product=zara coat 3, email=vinodnb52@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="tearDown" is-config="true" duration-ms="698" started-at="2023-10-12T17:56:40 IST" finished-at="2023-10-12T17:56:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="launchBrowser" is-config="true" duration-ms="2082" started-at="2023-10-12T17:56:41 IST" finished-at="2023-10-12T17:56:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="submitOrders(java.util.HashMap)[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="submitOrders" duration-ms="8922" started-at="2023-10-12T17:56:43 IST" data-provider="getData" finished-at="2023-10-12T17:56:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Welcome*123, product=ADIDAS ORIGINAL, email=qat@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest@49c386c8]" name="tearDown" is-config="true" duration-ms="681" started-at="2023-10-12T17:56:52 IST" finished-at="2023-10-12T17:56:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UIAutomation.SeleniumFrameworkDesign.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test name="Error Validations Test" duration-ms="12017" started-at="2023-10-12T17:56:52 IST" finished-at="2023-10-12T17:57:04 IST">
+      <class name="UIAutomation.SeleniumFrameworkDesign.ErrorValidations">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="launchBrowser" is-config="true" duration-ms="2017" started-at="2023-10-12T17:56:52 IST" finished-at="2023-10-12T17:56:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="errorValidationsInProductCatalogue()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="errorValidationsInProductCatalogue" duration-ms="3320" started-at="2023-10-12T17:56:54 IST" finished-at="2023-10-12T17:56:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationsInProductCatalogue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="tearDown" is-config="true" duration-ms="659" started-at="2023-10-12T17:56:58 IST" finished-at="2023-10-12T17:56:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="launchBrowser" is-config="true" duration-ms="2087" started-at="2023-10-12T17:56:58 IST" finished-at="2023-10-12T17:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginErrors()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="loginErrors" duration-ms="3251" started-at="2023-10-12T17:57:01 IST" finished-at="2023-10-12T17:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrors -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UIAutomation.SeleniumFrameworkDesign.ErrorValidations@e056f20]" name="tearDown" is-config="true" duration-ms="682" started-at="2023-10-12T17:57:04 IST" finished-at="2023-10-12T17:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UIAutomation.SeleniumFrameworkDesign.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>

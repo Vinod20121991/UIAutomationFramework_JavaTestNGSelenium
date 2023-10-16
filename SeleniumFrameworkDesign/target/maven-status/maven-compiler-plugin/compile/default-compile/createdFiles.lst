@@ -1,0 +1,8 @@
+UIAutomation\SeleniumFrameworkDesign\ConfirmationPage.class
+UIAutomation\SeleniumFrameworkDesign\CartPage.class
+UIAutomation\SeleniumFrameworkDesign\ProductCataloguePage.class
+UIAutomation\SeleniumFrameworkDesign\CheckOutPage.class
+UIAutomation\SeleniumFrameworkDesign\LandingPage.class
+Utility\GenericFunctions.class
+Resources\ExtentReportNG.class
+UIAutomation\SeleniumFrameworkDesign\OrdersPage.class

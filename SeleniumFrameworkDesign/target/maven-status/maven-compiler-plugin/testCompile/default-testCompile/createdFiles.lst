@@ -1,0 +1,7 @@
+UIAutomation\SeleniumFrameworkDesign\ExtentHtmlReporting.class
+UIAutomation\SeleniumFrameworkDesign\StandaloneTest.class
+GenericTestComponents\BaseTest$1.class
+GenericTestComponents\BaseTest.class
+GenericTestComponents\Listeners.class
+GenericTestComponents\RetryFailedTestcases.class
+UIAutomation\SeleniumFrameworkDesign\SubmitOrderTest.class

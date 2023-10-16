@@ -1,0 +1,29 @@
+package test;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class HomeLoan {
+	
+	//name Parameters-> we have a previllage to define multiple parameters in the single test
+	@Parameters({"URL","Username","Password"})
+	@Test
+	public void homeLoanWebLogin(String urlName)
+	{
+		System.out.println(" homeLoan WebLogin");
+		System.out.println(urlName + "Parametr values have been passed from testng.xml file into the test");
+	}
+	
+	@Test
+	public void homeLoanMobileAppLogin()
+	{
+		System.out.println(" homeLoan MobileAppLogin");
+	}
+	
+	@Test(groups= {"smoke"})
+	public void homeLoanAPILogin()
+	{
+		System.out.println(" homeLoan ApiLogin");
+	}
+
+}
